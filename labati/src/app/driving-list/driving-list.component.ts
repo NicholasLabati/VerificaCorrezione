@@ -21,4 +21,8 @@ export class DrivingListComponent implements OnInit {
   get_driving = (auto: Drive[]) => {
     this.driveList = auto;
   }
+
+  onNoleggia(auto : Drive) {
+    console.log(auto);
+  }
 }
